@@ -53,7 +53,7 @@ To transfer money from the bank:
 2. Select the bank.
 3. Click on "Add Money".
 
-    ![Add Money](packages\PNG\TRANSFER.png)
+    ![Add Money](packages/PNG/TRANSFER.png)
 
 4. Wait for the website to redirect you to the bank's website.
 5. Without doing anything on the bank's website, go back to the transfer page.
@@ -71,7 +71,7 @@ To transfer money from the bank:
 
 8. Open the OnRampTransaction table in Prisma Studio, and find the recent processing transaction. Copy the `token`, `user_identifier`, and `amount`.
 
-    ![Prisma Studio](packages\PNG\ONRAMP.png)
+    ![Prisma Studio](packages/PNG/ONRAMP.png)
 
 9. Go to Postman and make a POST request to:
 
